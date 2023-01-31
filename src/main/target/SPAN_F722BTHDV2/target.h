@@ -17,9 +17,9 @@
 
 #pragma once
 
-#define TARGET_BOARD_IDENTIFIER "F722BTHD"
+#define TARGET_BOARD_IDENTIFIER "IF7T"
 
-#define USBD_PRODUCT_STRING     "SPAN F722 BTHDV2"
+#define USBD_PRODUCT_STRING     "IFLIGHTF7_TWING"
 
 #define LED0                    PC4
 
