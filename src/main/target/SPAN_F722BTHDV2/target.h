@@ -19,7 +19,7 @@
 
 #define TARGET_BOARD_IDENTIFIER "IF7T"
 
-#define USBD_PRODUCT_STRING     "IFLIGHTF7_TWING"
+#define USBD_PRODUCT_STRING     "F722BTHD"
 
 #define LED0                    PC4
 
