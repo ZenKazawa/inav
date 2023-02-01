@@ -32,9 +32,9 @@
 #define USE_SPI
 #define USE_SPI_DEVICE_1
 
-#define SPI1_SCK_PIN            PA5
-#define SPI1_MISO_PIN           PA6
-#define SPI1_MOSI_PIN           PA7
+#define SPI1_SCK_PIN            A05
+#define SPI1_MISO_PIN           A06
+#define SPI1_MOSI_PIN           A07
 
 #define USE_DUAL_GYRO
 
@@ -42,10 +42,10 @@
 #define IMU_0_ALIGN       CW90_DEG
 #define IMU_1_ALIGN       CW0_DEG
 
-#define ICM42605_0_CS_PIN        PC3
+#define ICM42605_0_CS_PIN        A15
 #define ICM42605_0_SPI_BUS       BUS_SPI1
 
-#define ICM42605_1_CS_PIN        PA15
+#define ICM42605_1_CS_PIN        C03
 #define ICM42605_1_SPI_BUS       BUS_SPI1
 
 // *************** I2C/Baro/Mag *********************
