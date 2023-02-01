@@ -39,8 +39,8 @@
 #define USE_DUAL_GYRO
 
 #define USE_IMU_ICM42605
-#define IMU_0_ALIGN       CW90_DEG
-#define IMU_1_ALIGN       CW0_DEG
+#define IMU_0_ALIGN       CW0_DEG
+#define IMU_1_ALIGN       CW90_DEG
 
 #define ICM42605_0_CS_PIN        PA15
 #define ICM42605_0_SPI_BUS       BUS_SPI1
