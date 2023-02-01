@@ -38,15 +38,15 @@
 
 #define USE_DUAL_GYRO
 
-#define USE_IMU_ICM20689
+#define USE_IMU_ICM42605
 #define IMU_0_ALIGN       CW90_DEG
 #define IMU_1_ALIGN       CW0_DEG
 
-#define ICM20689_0_CS_PIN        PC3
-#define ICM20689_0_SPI_BUS       BUS_SPI1
+#define ICM42605_0_CS_PIN        PC3
+#define ICM42605_0_SPI_BUS       BUS_SPI1
 
-#define ICM20689_1_CS_PIN        PA15
-#define ICM20689_1_SPI_BUS       BUS_SPI1
+#define ICM42605_1_CS_PIN        PA15
+#define ICM42605_1_SPI_BUS       BUS_SPI1
 
 // *************** I2C/Baro/Mag *********************
 #define USE_I2C
